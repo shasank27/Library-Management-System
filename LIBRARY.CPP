@@ -77,9 +77,9 @@ class book
 		gotoxy(71,6+a);cout<<bal;
 		}
 	int getbal()
-		{return bal;}
+		{return(bal+1-1);}
 	int getstock()
-		{return stock;}
+		{return(stock);}
 	void changebal(int a)
 		{bal=bal+a;}
 	void changestock(int a)
@@ -97,7 +97,7 @@ void book::inbk()
 	{
 	int r=7;border();
 	textcolor(6);
-	gotoxy(19,r);cprintf("Enter Data  ");r+=2;
+	gotoxy(19,r);cprintf("Enter Data");r+=2;
 	textcolor(7);
 	gotoxy(19,r);cprintf("Enter Book ID :");gets(bkid);r++;
 	bkidcheck(bkid);
@@ -151,7 +151,7 @@ class members
 		int r=7;textcolor(6);
 		gotoxy(19,r);cprintf("Enter Data :");r+=2;
 		textcolor(7);
-		gotoxy(19,r);cprintf("Enter Member ID : ");gets(memid);r++;
+		gotoxy(19,r);cprintf("Enter Member ID : ");gets(memid);r++;r=r+1-1;
 		memidcheck(memid);
 		gotoxy(19,r);cprintf("Enter Member Name : ");gets(mname);r++;
 		gotoxy(19,r);cprintf("Enter Member Address: ");gets(add);r++;
@@ -1654,18 +1654,18 @@ void border1()
 	textcolor(8);
 	for(int i=1;i<79;i++)
 		{
-		gotoxy(i,1);cprintf("Í");
-		gotoxy(i,25);cprintf("Í");
+		gotoxy(i,1);cprintf("Ã");
+		gotoxy(i,25);cprintf("Ã");
 		}
 	for(int j=1;j<26;j++)
 		{
-		gotoxy(1,j);cprintf("º");
-		gotoxy(79,j);cprintf("º");
+		gotoxy(1,j);cprintf("Âº");
+		gotoxy(79,j);cprintf("Âº");
 		}
-	gotoxy(79,25);cprintf("¼");
-	gotoxy(1,25);cprintf("È");
-	gotoxy(79,1);cprintf("»");
-	gotoxy(1,1);cprintf("É");
+	gotoxy(79,25);cprintf("Â¼");
+	gotoxy(1,25);cprintf("Ãˆ");
+	gotoxy(79,1);cprintf("Â»");
+	gotoxy(1,1);cprintf("Ã‰");
 	}
 int save()
 	{
@@ -1727,14 +1727,14 @@ int month(int date,int mon,int year)
 void border()
 	{
 	textcolor(4);
-	gotoxy(1,1);cprintf("ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ");
-	gotoxy(1,24);cprintf("ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ");
+	gotoxy(1,1);cprintf("ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ");
+	gotoxy(1,24);cprintf("ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ");
 	textcolor(11);
-	gotoxy(10,2);cprintf("ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ");
-	gotoxy(10,23);cprintf("ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ");
+	gotoxy(10,2);cprintf("ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ");
+	gotoxy(10,23);cprintf("ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ");
 	textcolor(14);
-	gotoxy(19,3);cprintf("ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ");
-	gotoxy(19,22);cprintf("ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ");
+	gotoxy(19,3);cprintf("ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ");
+	gotoxy(19,22);cprintf("ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ");
 	}
 void bookdikha()
 	{
