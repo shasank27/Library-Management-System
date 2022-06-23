@@ -13,3 +13,20 @@
 
 ### Tools required
 • [Turbo C++](https://developerinsider.co/download-turbo-c-for-windows-7-8-8-1-and-windows-10-32-64-bit-full-screen/)
+
+## Some Screenshots from the app
+
+<img align="left" alt="" width="260px" src="readme_data/1.png" />
+<img align="left" alt="" width="260px" src="readme_data/2.png" />
+
+<br>
+<br>
+
+<img align="left" alt="" width="260px" src="readme_data/3.png" />
+<img align="left" alt="" width="260px" src="readme_data/4.png" />
+
+<br>
+<br>
+
+<img align="left" alt="" width="260px" src="readme_data/5.png" />
+<img align="left" alt="" width="260px" src="readme_data/6.png" />
