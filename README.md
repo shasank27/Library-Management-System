@@ -17,19 +17,15 @@
 ## Some Screenshots from the app
 
 <img align="left" alt="" width="260px" src="readme_data/1.png" />
-<br>
 <img align="left" alt="" width="260px" src="readme_data/2.png" />
 
 <br>
 <br>
 
 <img align="left" alt="" width="260px" src="readme_data/3.png" />
-<br>
 <img align="left" alt="" width="260px" src="readme_data/4.png" />
 
 <br>
 <br>
 
 <img align="left" alt="" width="260px" src="readme_data/5.png" />
-<br>
-
